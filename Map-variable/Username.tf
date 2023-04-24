@@ -5,7 +5,6 @@ variable "UserAge" {
     Vishal = 21
   }
 }
-
 variable "UserName" {
     type = string
     default = "Kaushik"
