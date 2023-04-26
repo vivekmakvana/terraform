@@ -1,11 +1,9 @@
 variable "UserAge" {
-  type = map
-  default  = {
-    Kaushik = 20
-    Vishal = 21
-  }
+  type = number
 }
 variable "UserName" {
     type = string
-    default = "Kaushik"
+}
+output "PrintAge" {
+  value = "Age Of ${var.UserName} is ${var.UserAge}}"
 }
